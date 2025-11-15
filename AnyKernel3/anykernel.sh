@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=-YacineKernel 
+kernel.string=-SM8250-S20Family-kernel 
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -13,7 +13,8 @@ do.cleanuponabort=0
 device.name1=z3q
 device.name2=x1qxx
 device.name3=y2q
-supported.versions=11 - 15
+device.name4=y2qxx
+supported.versions=11 - 17
 supported.patchlevels=
 '; } # end properties
 
